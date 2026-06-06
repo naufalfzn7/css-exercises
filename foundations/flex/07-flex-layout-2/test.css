@@ -1,0 +1,24 @@
+.container {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.children {
+  flex: 1;
+}
+
+.children.one {
+  background-color: red;
+}
+.children.two {
+  background-color: rgb(237, 246, 3);
+  align-self: flex-start;
+}
+.children.three {
+  background-color: rgb(3, 255, 28);
+}
+.children.four {
+  background-color: rgb(4, 0, 255);
+}
